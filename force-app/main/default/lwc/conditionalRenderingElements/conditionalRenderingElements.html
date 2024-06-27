@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Conditional Rendering" icon-name="custom:custom14">
+      <div class="slds-m-around_medium">
+        <p>Hello, {myValue}!</p>
+        <lightning-input label="Click Me" type="checkbox" onchange={handleChange}></lightning-input>
+        <template if:true={showMe}>I am visible</template>
+        <template if:false={showMe}>I am not visible</template>
+      </div>
+    </lightning-card>
+</template>

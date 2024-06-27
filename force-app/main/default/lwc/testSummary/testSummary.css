@@ -1,0 +1,17 @@
+/* Example CSS */
+:host {
+    display: block;
+    padding: 1rem;
+    background-color: #f4f6f9;
+    border-radius: 0.5rem;
+}
+
+lightning-input {
+    margin-bottom: 1rem;
+}
+
+lightning-formatted-text {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
